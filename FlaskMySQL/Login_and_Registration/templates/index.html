@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login and Registration</title>
+  </head>
+  <body>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+      <p>{{message}}</p>
+    {% endfor %}
+  {% endif %}
+    {% endwith %}
+    <h1>Register</h1>
+    <form action="/register" method="post">
+      <p><label>First Name:</label><input type="text" name="first_name"></p>
+      <p><label>Last Name:</label><input type="text" name="last_name"></p>
+      <p><label>Email:</label><input type="email" name="email"></p>
+      <p><label>Password:</label><input type="password" name="pwd"></p>
+      <p><label>Confirm Password:</label><input type="password" name="pwd_confirm"></p>
+      <p><input type="submit" value="Register"></p>
+    </form>
+    <h1>Login</h1>
+    <form action="/login/" method="post">
+      <p><label>Email:</label><input type="email" name="email"></p>
+      <p><label>Password:</label><input type="password" name="pwd"></p>
+      <p><input type="submit" value="Login"></p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Coding Dojo Wall</title>
+    <style media="screen">
+      header{
+        border-bottom: 3px solid black;
+      }
+      header h1, h3, form{
+        display: inline-block;
+      }
+      header h3 {
+        margin-left: 66%;
+      }
+      header form{
+        margin-left: 2%;
+      }
+      #logout{
+        background: none;
+        border: none;
+        font-size: 1em;
+        color: blue;
+        text-decoration: underline;
+      }
+      main{
+        width: 80%;
+        margin: auto;
+        padding: .5%;
+      }
+      .post h2{
+        margin-bottom: 1%;
+      }
+      #post_message{
+        width: 99%;
+      }
+      .post textarea{
+        width: 98%;
+        height: 75px;
+        margin-left: 1%;
+      }
+      #message{
+        margin-left: 90%;
+        height: 30px;
+        background-color: #008CBA;
+        color: white;
+        width: 105px;
+        box-shadow: 2px 2px 2px black;
+      }
+      .post_info{
+        font-size: 19px;
+        font-weight: bold;
+      }
+      .init_message{
+        margin-left: 1%;
+      }
+      .comments{
+        margin-left: 2%;
+      }
+      .comment_info{
+        font-weight: bold;
+        font-size: 17px;
+      }
+      #h3{
+        display: block;
+        margin-bottom: .5%;
+      }
+      .post_comment{
+        width: 98%;
+      }
+      #comment{
+        width: 99%;
+      }
+      .post_comment textarea{
+        width: 99%;
+      }
+      #comment_button{
+        margin-left: 90%;
+        height: 22px;
+        background-color: #4CAF50;
+        color: white;
+        width: 102px;
+        box-shadow: 2px 2px 2px black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CodingDojo Wall</h1>
+      <h3>Welcome {{session['user'][0]['first_name']}}</h3>
+      <form action="/logout" method="post">
+        <input id="logout" type="submit" value="Logout">
+      </form>
+    </header>
+    <main>
+      <div class="post">
+        <h2>Post a Message</h2>
+        <form id="post_message" action="/message" method="post">
+          <textarea name="message"></textarea>
+          <p><input id="message" type="submit" value="Post A Message"></p>
+        </form>
+      </div>
+      <section>
+        {% for message in messages %}
+        <span class="post_info"><p>{{message['first_name']}} {{message['last_name']}} {{message['created_at'].strftime('%B %d %Y')}}</p></span>
+        <div class="init_message">
+        <p>{{message['message']}}</p></div>
+        {% for comment in comments %}
+        {% if comment['message_id'] == message['id'] %}
+        <div class="comments">
+        <span class="comment_info"><p>{{comment['first_name']}} {{comment['last_name']}} {{comment['created_at'].strftime('%B %d %Y')}}</p></span>
+        <p>{{comment['comment']}}</p>
+        {% endif %}
+        {% endfor %}
+        <h3 id="h3">Post a Comment</h3>
+        <div class="post_comment">
+        <form id="comment" action="/comment/{{message['id']}}" method="post">
+          <textarea name="my_comment" rows="8" cols="80"></textarea>
+          <input id="comment_button" type="submit" value="Post A comment">
+        </form></div>
+        </div>
+        {% endfor %}
+      </section>
+    </main>
+  </body>
+</html>
