@@ -41,8 +41,8 @@ namespace Basic13
 
         public static void FindMax(int[] myArray)
         {
-            int maxNum = myArray[0];
-            foreach (int num in myArray)
+            int maxNum = myArray[0]; // maxNum is first value
+            foreach (int num in myArray) // foreach starts at first value, try for loop instead
             {
                 if (num > maxNum)
                 {
