@@ -1,0 +1,10 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/wizard_ninja_samurai/obj/Debug/netcoreapp2.0/wizard_ninja_samurai.csproj.CoreCompileInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/wizard_ninja_samurai/obj/Debug/netcoreapp2.0/wizard_ninja_samurai.AssemblyInfoInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/wizard_ninja_samurai/obj/Debug/netcoreapp2.0/wizard_ninja_samurai.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/wizard_ninja_samurai/bin/Debug/netcoreapp2.0/wizard_ninja_samurai.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/wizard_ninja_samurai/bin/Debug/netcoreapp2.0/wizard_ninja_samurai.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/wizard_ninja_samurai/bin/Debug/netcoreapp2.0/wizard_ninja_samurai.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/wizard_ninja_samurai/bin/Debug/netcoreapp2.0/wizard_ninja_samurai.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/wizard_ninja_samurai/bin/Debug/netcoreapp2.0/wizard_ninja_samurai.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/wizard_ninja_samurai/obj/Debug/netcoreapp2.0/wizard_ninja_samurai.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/wizard_ninja_samurai/obj/Debug/netcoreapp2.0/wizard_ninja_samurai.pdb
