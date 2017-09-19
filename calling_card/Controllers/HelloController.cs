@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
- 
+// Super simple right? Hope you're getting the hang of setting up a .NET Core app
 namespace YourNamespace.Controllers
 {
     public class HelloController : Controller
