@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+// Overall, pretty good job Ahrav.  I saw a dependency growing with using Lists instead of in-place operations.  Challenge yourself in the future.
 namespace Basic13
 {
     class Program
@@ -59,7 +60,7 @@ namespace Basic13
             {
                 total += num;
             }
-            total = total / myArray.Length;
+            total = total / myArray.Length; // does total end up always giving you a whole number? What about an average of 4.5, does making it an int coerce it to 4?
             Console.WriteLine(total);
         }
 
@@ -92,6 +93,7 @@ namespace Basic13
 
         public static void SquareValues(int[] myArray)
         {
+            // what if you had to do this in-place? You wouldn't make a separate List would you?
             List<int> myList = new List<int>();
             foreach (int num in myArray)
             {
@@ -106,6 +108,7 @@ namespace Basic13
 
         public static void EliminateNegative(int[] myArray)
         {
+            // not bad.  I like your ability to build a new List anytime you need the workspace, but challenge yourself to do in-place operations
             List<int> myList = new List<int>();
             foreach (int num in myArray)
             {
