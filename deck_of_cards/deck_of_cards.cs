@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+// Hmmm, looks good but strikingly the same as Claire's work.  Did you two collaborate or use an answersheet?  Tread carefully.
+
 namespace deck_of_cards{
     
     public class Card{
