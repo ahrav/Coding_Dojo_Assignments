@@ -79,8 +79,14 @@ namespace dojodachi.Controllers
                     Random Rand = new Random();
                     int number = Rand.Next(5,10);
                     Fullness += number;
+                    string Note = $"You fed the Dojodachi Fullness +{number} Meals -1";
+                    HttpContext.Session.SetString("Message", Note);
                 }
-                HttpContext.Session.SetString("Message", "You played with the Dojodachi Happiness");
+                else
+                {
+                    string Note = "You fed the Dojodachi and it did not like it! Meals -1";
+                    HttpContext.Session.SetString("Message", Note);
+                }
                 HttpContext.Session.SetInt32("Fullness",(int)Fullness);
                 return RedirectToAction("Index");
             }
@@ -110,8 +116,14 @@ namespace dojodachi.Controllers
                     int? Happiness = HttpContext.Session.GetInt32("Happiness");
                     Happiness += value;
                     HttpContext.Session.SetInt32("Happiness", (int)Happiness);
+                    string Note = $"You played with your Dojodachi Happiness +{value} Energy -5";
+                    HttpContext.Session.SetString("Message", Note);
                 }
-                HttpContext.Session.SetString("Message", "you played with your Dojodachi");
+                else
+                {
+                    string Note = "You played with your Dojodachi and it did not like it! Energy -5";
+                    HttpContext.Session.SetString("Message", Note);
+                }
                 return RedirectToAction("Index");
             }
         }
@@ -136,7 +148,8 @@ namespace dojodachi.Controllers
                 int? Meals = HttpContext.Session.GetInt32("Meals");
                 Meals += Number;
                 HttpContext.Session.SetInt32("Meals", (int)Meals);
-                HttpContext.Session.SetString("Message", "You worked with your Dojodachi");
+                string Note = $"Your Dojodachi worked Meals +{Number} Energy -5";
+                HttpContext.Session.SetString("Message", Note);
             }
             return RedirectToAction("Index");
         }
@@ -161,8 +174,9 @@ namespace dojodachi.Controllers
                 int? Energy = HttpContext.Session.GetInt32("Energy");
                 Energy += 15;
                 HttpContext.Session.SetInt32("Energy", (int)Energy);
+                string Note = $"Your Dojodachi slept Energy +15 Fullness -5 Happiness -5";
+                HttpContext.Session.SetString("Message", Note);
             }
-            HttpContext.Session.SetString("Message", "your Dojodachi slept");
             return RedirectToAction("Index");
         }
 
