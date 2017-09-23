@@ -1,0 +1,8 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/asp_demo/bin/Debug/netcoreapp1.1/asp_demo.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/asp_demo/bin/Debug/netcoreapp1.1/asp_demo.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/asp_demo/bin/Debug/netcoreapp1.1/asp_demo.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/asp_demo/bin/Debug/netcoreapp1.1/asp_demo.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/asp_demo/bin/Debug/netcoreapp1.1/asp_demo.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/asp_demo/obj/Debug/netcoreapp1.1/asp_demo.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/asp_demo/obj/Debug/netcoreapp1.1/asp_demo.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/asp_demo/obj/Debug/netcoreapp1.1/asp_demo.pdb

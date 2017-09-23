@@ -1,0 +1,10 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/first_csharp/bin/Debug/netcoreapp2.0/first_csharp.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.csproj.CoreCompileInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.AssemblyInfoInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/first_csharp/obj/Debug/netcoreapp2.0/first_csharp.pdb

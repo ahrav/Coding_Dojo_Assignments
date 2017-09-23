@@ -1,0 +1,8 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/dojo_survey/bin/Debug/netcoreapp1.1/dojo_survey.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/dojo_survey/bin/Debug/netcoreapp1.1/dojo_survey.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/dojo_survey/bin/Debug/netcoreapp1.1/dojo_survey.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/dojo_survey/bin/Debug/netcoreapp1.1/dojo_survey.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/dojo_survey/bin/Debug/netcoreapp1.1/dojo_survey.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/dojo_survey/obj/Debug/netcoreapp1.1/dojo_survey.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/dojo_survey/obj/Debug/netcoreapp1.1/dojo_survey.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/dojo_survey/obj/Debug/netcoreapp1.1/dojo_survey.pdb

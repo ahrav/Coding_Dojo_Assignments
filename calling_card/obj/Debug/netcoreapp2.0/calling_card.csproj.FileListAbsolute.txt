@@ -1,0 +1,10 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/calling_card/bin/Debug/netcoreapp2.0/calling_card.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/calling_card/bin/Debug/netcoreapp2.0/calling_card.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/calling_card/bin/Debug/netcoreapp2.0/calling_card.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/calling_card/bin/Debug/netcoreapp2.0/calling_card.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/calling_card/bin/Debug/netcoreapp2.0/calling_card.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/calling_card/obj/Debug/netcoreapp2.0/calling_card.csproj.CoreCompileInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/calling_card/obj/Debug/netcoreapp2.0/calling_card.AssemblyInfoInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/calling_card/obj/Debug/netcoreapp2.0/calling_card.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/calling_card/obj/Debug/netcoreapp2.0/calling_card.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/calling_card/obj/Debug/netcoreapp2.0/calling_card.pdb

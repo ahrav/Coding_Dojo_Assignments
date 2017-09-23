@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <span>Happiness: @ViewBag.Happiness</span>
+    <span>Fullness: @ViewBag.Fullness</span>
+    <span>Energy: @ViewBag.Energy</span>
+    <span>Meals: @ViewBag.Meals</span>
+    <div class="content">
+        <p>@ViewBag.Message</p>
+        @if (ViewBag.Reset == true){
+            <a href="/reset"><button>Restart</button></a>
+        }
+    </div>
+    @if (ViewBag.Reset == false){
+        <a href="/feed"><button>Feed</button></a>
+        <a href="/play"><button>Play</button></a>
+        <a href="/work"><button>Work</button></a>
+        <a href="/sleep"><button>Sleep</button></a>
+    }
+</body>
+</html>
