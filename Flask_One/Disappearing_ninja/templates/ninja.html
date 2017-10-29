@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Disappearing Ninjas</title>
+  </head>
+  <body>
+      {% if session['allNinjas'] == True %}
+        <img src= "{{ url_for ('static', filename= 'Ninjas/donatello.jpg')}}" />
+        <img src= "{{ url_for ('static', filename= 'Ninjas/leonardo.jpg')}}" />
+        <img src= "{{ url_for ('static', filename= 'Ninjas/michelangelo.jpg')}}" />
+        <img src= "{{ url_for ('static', filename= 'Ninjas/raphael.jpg')}}" />
+      {% endif %}
+      {% if session['allNinjas'] == False %}
+        {% if session['ninja'] == 'donatello' %}
+          <img src= "{{ url_for ('static', filename= 'Ninjas/donatello.jpg')}}" />
+        {% endif %}
+        {% if session['ninja'] == 'leonardo' %}
+          <img src= "{{ url_for ('static', filename= 'Ninjas/leonardo.jpg')}}" />
+        {% endif %}
+        {% if session['ninja'] == 'michelangelo' %}
+          <img src= "{{ url_for ('static', filename= 'Ninjas/michelangelo.jpg')}}" />
+        {% endif %}
+        {% if session['ninja'] == 'raphael' %}
+          <img src= "{{ url_for ('static', filename= 'Ninjas/raphael.jpg')}}" />
+        {% endif %}
+        {% if session['ninja'] == 'other' %}
+          <img src= "{{ url_for ('static', filename='Ninjas/notapril.jpg')}}" />
+        {% endif %}
+      {% endif %}
+  </body>
+</html>

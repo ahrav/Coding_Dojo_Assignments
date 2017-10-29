@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>books</title>
+  </head>
+  <body>
+    <header>
+      {% if messages %}
+        {% for message in messages %}
+          {{message}}
+        {% endfor %}
+      {% endif %}
+      <a href="/books/add">Add Book and Review</a>
+    </header>
+    <main>
+      <h4>Recent Book Reviews:</h4>
+      {% for review in recent %}
+      <div class="review">
+        <h2><a href="/books/{{review.book.id}}">{{review.book.title}}</a></h2>
+        <p>Rating: {{review.rating}}</p>
+        <p><a href="#">{{review.user.name}}</a> says: {{review.description}}</p>
+        <p>Posted on: {{review.created_at}}</p>
+      </div>
+      {% endfor %}
+      <div class="side">
+        <h2>Other books with Reviews:</h2>
+      </div>
+    </main>
+  </body>
+</html>

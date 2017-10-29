@@ -1,0 +1,8 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/portfolio/bin/Debug/netcoreapp1.1/portfolio.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/portfolio/bin/Debug/netcoreapp1.1/portfolio.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/portfolio/bin/Debug/netcoreapp1.1/portfolio.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/portfolio/bin/Debug/netcoreapp1.1/portfolio.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/portfolio/bin/Debug/netcoreapp1.1/portfolio.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/portfolio/obj/Debug/netcoreapp1.1/portfolio.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/portfolio/obj/Debug/netcoreapp1.1/portfolio.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/portfolio/obj/Debug/netcoreapp1.1/portfolio.pdb

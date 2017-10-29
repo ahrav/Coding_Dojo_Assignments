@@ -1,0 +1,10 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/CollectionPractice/bin/Debug/netcoreapp2.0/CollectionPractice.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/CollectionPractice/bin/Debug/netcoreapp2.0/CollectionPractice.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/CollectionPractice/bin/Debug/netcoreapp2.0/CollectionPractice.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/CollectionPractice/bin/Debug/netcoreapp2.0/CollectionPractice.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/CollectionPractice/bin/Debug/netcoreapp2.0/CollectionPractice.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/CollectionPractice/obj/Debug/netcoreapp2.0/CollectionPractice.csproj.CoreCompileInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/CollectionPractice/obj/Debug/netcoreapp2.0/CollectionPractice.AssemblyInfoInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/CollectionPractice/obj/Debug/netcoreapp2.0/CollectionPractice.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/CollectionPractice/obj/Debug/netcoreapp2.0/CollectionPractice.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/CollectionPractice/obj/Debug/netcoreapp2.0/CollectionPractice.pdb

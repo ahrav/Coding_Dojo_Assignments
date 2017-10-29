@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Submitted Survey</title>
+  </head>
+  <body>
+    <p>Thanks for submitting this form! You have submited this form {{request.session.counter}} times now</p>
+    <h2>Submitted Information</h2>
+    <p>Name: {{request.session.name}}</p>
+    <p>Dojo Location: {{request.session.location}}</p>
+    <p>Favorite Language: {{request.session.language}}</p>
+    <p>Comment: {{request.session.comment}}</p>
+  </body>
+</html>

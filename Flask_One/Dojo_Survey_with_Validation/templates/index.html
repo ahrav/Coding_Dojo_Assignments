@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dojo Survey with Validation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style media="screen">
+      body{
+        width: 700px;
+        text-align: center;
+        margin: 40px auto auto auto;
+      }
+    </style>
+  </head>
+  <body>
+    <form class=".form-horizontal" action="/dojo_survey" method="post">
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}
+          {% for message in messages %}
+            <p>{{message}}</p>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
+      <label class=".control-label">Your Name:</label>
+      <input type="text" name="name">
+      <br>
+      <label class=".control-label">Dojo Location:</label>
+      <select name="location">
+        <option value="San Jose">San Jose</option>
+        <option value="Seattle">Seattle</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Online">Online</option>
+      </select>
+      <br>
+      <label class=".control-label">Favorite Language:</label>
+      <select name="language">
+        <option value="Python">Python</option>
+        <option value="Javascript">Javascript</option>
+        <option value="C#">C#</option>
+        <option value="Ruby">Ruby</option>
+      </select>
+      <br>
+      <label class=".control-label">Commnent (optional):</label>
+      <br>
+      <textarea name="comment" rows="8" cols="80"></textarea>
+      <br>
+      <input type="submit" value="Submit!">
+    </form>
+  </body>
+</html>

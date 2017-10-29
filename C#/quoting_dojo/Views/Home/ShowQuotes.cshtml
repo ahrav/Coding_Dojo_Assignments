@@ -1,0 +1,6 @@
+<h1>Here are the awesome quotes!</h1>
+@foreach (var user in @ViewBag.allUsers)
+{
+    <p>"@user["Quote"]"</p>
+    <p>-@user["Name"] at @user["Created_at"]</p>
+}

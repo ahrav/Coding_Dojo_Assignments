@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Amadon</title>
+  </head>
+  <body>
+    <h1>Amadon Store!</h1>
+    <form action="/process" method="post">
+      {% csrf_token %}
+      <input type="hidden" name="item" value="shirt">
+      <input type="text" value="Dojo T-shirt">
+      <input type="hidden" name="price" value="19.99">$19.99
+      <select name="quantity">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      <input type="submit" value="Buy">
+    </form>
+    <br>
+    <form action="/process" method="post">
+      {% csrf_token %}
+      <input type="hidden" name="item" value="sweater">
+      <input type="text" value="Dojo Sweater">
+      <input type="hidden" name="price" value="29.99">$29.99
+      <select name="quantity">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      <input type="submit" value="Buy">
+    </form>
+    <br>
+    <form action="/process" method="post">
+      {% csrf_token %}
+      <input type="hidden" name="item" value="cap">
+      <input type="text" value="Dojo Cap">
+      <input type="hidden" name="price" value="4.99">$4.99
+      <select name="quantity">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      <input type="submit" value="Buy">
+    </form>
+    <br>
+    <form action="/process" method="post">
+      {% csrf_token %}
+      <input type="hidden" name="item" value="book">
+      <input type="text" value="Algorithm Book">
+      <input type="hidden" name="price" value="49.99">$49.99
+      <select name="quantity">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      <input type="submit" value="Buy">
+    </form>
+    <br>
+  </body>
+</html>

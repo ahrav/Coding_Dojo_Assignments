@@ -1,0 +1,10 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/human/obj/Debug/netcoreapp2.0/human.csproj.CoreCompileInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/human/obj/Debug/netcoreapp2.0/human.AssemblyInfoInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/human/obj/Debug/netcoreapp2.0/human.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/human/bin/Debug/netcoreapp2.0/human.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/human/bin/Debug/netcoreapp2.0/human.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/human/bin/Debug/netcoreapp2.0/human.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/human/bin/Debug/netcoreapp2.0/human.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/human/bin/Debug/netcoreapp2.0/human.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/human/obj/Debug/netcoreapp2.0/human.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/human/obj/Debug/netcoreapp2.0/human.pdb

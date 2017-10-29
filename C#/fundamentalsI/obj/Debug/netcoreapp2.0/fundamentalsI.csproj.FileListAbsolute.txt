@@ -1,0 +1,10 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/fundamentalsI/bin/Debug/netcoreapp2.0/fundamentalsI.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.csproj.CoreCompileInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.AssemblyInfoInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/fundamentalsI/obj/Debug/netcoreapp2.0/fundamentalsI.pdb

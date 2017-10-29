@@ -1,0 +1,10 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/Basic13/bin/Debug/netcoreapp2.0/Basic13.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/Basic13/bin/Debug/netcoreapp2.0/Basic13.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/Basic13/bin/Debug/netcoreapp2.0/Basic13.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/Basic13/bin/Debug/netcoreapp2.0/Basic13.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/Basic13/bin/Debug/netcoreapp2.0/Basic13.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/Basic13/obj/Debug/netcoreapp2.0/Basic13.csproj.CoreCompileInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/Basic13/obj/Debug/netcoreapp2.0/Basic13.AssemblyInfoInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/Basic13/obj/Debug/netcoreapp2.0/Basic13.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/Basic13/obj/Debug/netcoreapp2.0/Basic13.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/Basic13/obj/Debug/netcoreapp2.0/Basic13.pdb

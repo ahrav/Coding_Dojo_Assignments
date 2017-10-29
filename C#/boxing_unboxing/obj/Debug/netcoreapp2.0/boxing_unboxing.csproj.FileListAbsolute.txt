@@ -1,0 +1,10 @@
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.deps.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.runtimeconfig.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.runtimeconfig.dev.json
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/boxing_unboxing/bin/Debug/netcoreapp2.0/boxing_unboxing.pdb
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.csproj.CoreCompileInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.AssemblyInfoInputs.cache
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.AssemblyInfo.cs
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.dll
+/Users/ahrav/Desktop/coding_dojo/C#_Intro/boxing_unboxing/obj/Debug/netcoreapp2.0/boxing_unboxing.pdb

@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "New Activity Page";
+}
+@model dojo_activity_center.Models.NewActivity
+<h1>Create an Activity!</h1>
+<form asp-action="AddActivity" asp-controller="Activity" method="post">
+    <span asp-validation-for="Title"></span>
+    <br>
+    <label asp-for="Title"></label>
+    <input asp-for="Title">
+    <br>
+    <span asp-validation-for="Date"></span>
+    <br>
+    <label asp-for="Date"></label>
+    <input type="date" asp-for="Date">
+    <br>
+    <span asp-validation-for="Time"></span>
+    <br>
+    <label asp-for="Time"></label>
+    <input asp-for="Time">
+    <br>
+    <span asp-validation-for="Duration"></span>
+    <br>
+    <label asp-for="Duration"></label>
+    <input type="number" asp-for="Duration">
+    <select name="dur">
+        <option value="minutes">Minutes</option>
+        <option value="hours">Hours</option>
+        <option value="days">Days</option>
+    </select>
+    <br>
+    <span asp-validation-for="Description"></span>
+    <br>
+    <label asp-for="Description"></label>
+    <textarea asp-for="Description" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" class="button-primary" value="Create Activity">
+</form>

@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Pokemon API</h1>
+<h3>Name: @ViewBag.PokeInfo["name"]</h3>
+<h3>Primary Type: @ViewBag.PokeInfo["type"]["type"]["name"]</h3>
+<h3>Height: @ViewBag.PokeInfo["height"]</h3>
+<h3>Weight: @ViewBag.PokeInfo["weight"]</h3>

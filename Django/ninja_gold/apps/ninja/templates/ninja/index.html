@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ninja Gold 2!</title>
+    <style media="screen">
+      .activity{
+        width: %;
+        height: 300px;
+        overflow: scroll;
+        margin-top: 50px;
+      }
+      .building{
+        display: inline-block;
+        width: 24%;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Your Gold: {{request.session.total_gold}}</p>
+    {% for building in buildings %}
+      <div class="building">
+        <h2>{{building.name}}</h2>
+        {{building.reward}}
+        <form action="/process/{{building.id}}" method="post">
+          {% csrf_token %}
+          <input type="submit" value="Find Gold">
+        </form>
+      </div>
+    {% endfor %}
+    <div class="reset">
+      <form action="/reset" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Reset">
+      </form>
+    </div>
+    <div class="activity">
+      {% for activity in request.session.activities %}
+        <p>{{activity}}</p>
+      {% endfor %}
+    </div>
+  </body>
+</html>

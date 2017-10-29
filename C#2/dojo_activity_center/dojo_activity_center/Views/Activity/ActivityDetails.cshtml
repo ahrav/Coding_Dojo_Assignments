@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+@model dojo_activity_center.Models.Activity
+@using dojo_activity_center.Models
+@using System.Linq
+<h1>Dojo Activity Center</h1>
+<a href="/Dashboard">Home</a>
+<a href="Logout">Log off</a>
+<h1>@Model.Title</h1>
+<div>
+    @if(ViewBag.ActiveUserId == Model.UserId)
+    {
+        <a href="/Delete/@Model.ActivityId"><button class="btn btn-primary">Delete</button></a>
+    }
+    else
+    {
+        @if(Model.Participants.Where(p => p.UserId == ViewBag.ActiveUserId).Count() == 0)
+            {
+                <a href="/Join/@Model.ActivityId"><button class="btn btn-primary">JOIN</button></a>
+            }
+            else
+            {
+                <a href="/Leave/@Model.ActivityId"><button class="btn btn-primary">LEAVE</button></a>
+            }
+    }
+
+</div>
+<h2>Event Coordinator: @ViewBag.theUser.FirstName</h2>
+<h2>Description</h2>
+<div>
+    @Model.Description
+</div>
+<h3>Participants:</h3>
+<ul>
+@foreach(var participant in Model.Participants)
+{
+    <li>@participant.ParticipatingUsers.FirstName</li>
+}
+</ul>
